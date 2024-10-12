@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'articles.apps.ArticlesConfig',
     'debug_toolbar',
+
 ]
 
 MIDDLEWARE = [
@@ -78,9 +79,9 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_import_phones',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': '24bfea9d',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
